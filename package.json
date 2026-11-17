@@ -1,0 +1,17 @@
+{
+  "name": "snapmock-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Movie API demonstration powered by the published SnapMock package",
+  "license": "MIT",
+  "scripts": {
+    "start": "snapmock --db ./db.json --port 3000",
+    "start:slow": "snapmock --db ./db.json --port 3000 --delay 750",
+    "start:unauthorized": "snapmock --db ./db.json --port 3000 --scenario unauthorized",
+    "start:server-error": "snapmock --db ./db.json --port 3000 --scenario serverError",
+    "test:api": "node ./scripts/test-api.js"
+  },
+  "dependencies": {
+    "snapmock": "1.0.0"
+  }
+}

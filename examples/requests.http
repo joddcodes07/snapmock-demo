@@ -1,0 +1,71 @@
+@baseUrl = http://127.0.0.1:3000
+
+### Get all movies (200)
+GET {{baseUrl}}/movies
+
+### Get one movie (200)
+GET {{baseUrl}}/movies/6
+
+### Create a movie (201; assigns the next numeric id)
+POST {{baseUrl}}/movies
+Content-Type: application/json
+
+{
+  "title": "Arrival",
+  "genre": "Sci-Fi",
+  "language": "English",
+  "releaseYear": 2016,
+  "rating": 7.9,
+  "runtime": 116,
+  "director": "Denis Villeneuve"
+}
+
+### Replace a movie (200)
+PUT {{baseUrl}}/movies/6
+Content-Type: application/json
+
+{
+  "title": "Inception: The Dream Heist",
+  "genre": "Sci-Fi",
+  "language": "English",
+  "releaseYear": 2010,
+  "rating": 8.8,
+  "runtime": 148,
+  "director": "Christopher Nolan"
+}
+
+### Change selected fields (200)
+PATCH {{baseUrl}}/movies/6
+Content-Type: application/json
+
+{
+  "rating": 8.9,
+  "runtime": 149
+}
+
+### Delete a movie (204; no response body)
+DELETE {{baseUrl}}/movies/18
+
+### Filter by genre (200)
+GET {{baseUrl}}/movies?genre=Sci-Fi
+
+### Filter by language (200)
+GET {{baseUrl}}/movies?language=Japanese
+
+### Search (200; q searches record text)
+GET {{baseUrl}}/movies?q=interstellar
+
+### Pagination (200; list stays an array)
+GET {{baseUrl}}/movies?_page=1&_limit=5
+
+### Missing movie (404)
+GET {{baseUrl}}/movies/9999
+
+### Duplicate ID on create (400)
+POST {{baseUrl}}/movies
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Duplicate ID example"
+}

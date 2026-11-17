@@ -1,0 +1,184 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "language": "English",
+      "releaseYear": 1994,
+      "rating": 9.3,
+      "runtime": 142,
+      "director": "Frank Darabont"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "language": "English",
+      "releaseYear": 1972,
+      "rating": 9.2,
+      "runtime": 175,
+      "director": "Francis Ford Coppola"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "language": "English",
+      "releaseYear": 2008,
+      "rating": 9,
+      "runtime": 152,
+      "director": "Christopher Nolan"
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "language": "English",
+      "releaseYear": 1994,
+      "rating": 8.9,
+      "runtime": 154,
+      "director": "Quentin Tarantino"
+    },
+    {
+      "id": 5,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "language": "English",
+      "releaseYear": 1994,
+      "rating": 8.8,
+      "runtime": 142,
+      "director": "Robert Zemeckis"
+    },
+    {
+      "id": 6,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2010,
+      "rating": 8.8,
+      "runtime": 148,
+      "director": "Christopher Nolan"
+    },
+    {
+      "id": 7,
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 1999,
+      "rating": 8.7,
+      "runtime": 136,
+      "director": "Lana Wachowski and Lilly Wachowski"
+    },
+    {
+      "id": 8,
+      "title": "Goodfellas",
+      "genre": "Crime",
+      "language": "English",
+      "releaseYear": 1990,
+      "rating": 8.7,
+      "runtime": 146,
+      "director": "Martin Scorsese"
+    },
+    {
+      "id": 9,
+      "title": "Spirited Away",
+      "genre": "Animation",
+      "language": "Japanese",
+      "releaseYear": 2001,
+      "rating": 8.6,
+      "runtime": 125,
+      "director": "Hayao Miyazaki"
+    },
+    {
+      "id": 10,
+      "title": "Parasite",
+      "genre": "Thriller",
+      "language": "Korean",
+      "releaseYear": 2019,
+      "rating": 8.5,
+      "runtime": 132,
+      "director": "Bong Joon-ho"
+    },
+    {
+      "id": 11,
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2014,
+      "rating": 8.7,
+      "runtime": 169,
+      "director": "Christopher Nolan"
+    },
+    {
+      "id": 12,
+      "title": "City of God",
+      "genre": "Crime",
+      "language": "Portuguese",
+      "releaseYear": 2002,
+      "rating": 8.6,
+      "runtime": 130,
+      "director": "Fernando Meirelles and Kátia Lund"
+    },
+    {
+      "id": 13,
+      "title": "Your Name",
+      "genre": "Animation",
+      "language": "Japanese",
+      "releaseYear": 2016,
+      "rating": 8.4,
+      "runtime": 106,
+      "director": "Makoto Shinkai"
+    },
+    {
+      "id": 14,
+      "title": "The Grand Budapest Hotel",
+      "genre": "Comedy",
+      "language": "English",
+      "releaseYear": 2014,
+      "rating": 8.1,
+      "runtime": 99,
+      "director": "Wes Anderson"
+    },
+    {
+      "id": 15,
+      "title": "Coco",
+      "genre": "Animation",
+      "language": "English",
+      "releaseYear": 2017,
+      "rating": 8.4,
+      "runtime": 105,
+      "director": "Lee Unkrich"
+    },
+    {
+      "id": 16,
+      "title": "Amélie",
+      "genre": "Romance",
+      "language": "French",
+      "releaseYear": 2001,
+      "rating": 8.3,
+      "runtime": 122,
+      "director": "Jean-Pierre Jeunet"
+    },
+    {
+      "id": 17,
+      "title": "Seven Samurai",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 1954,
+      "rating": 8.6,
+      "runtime": 207,
+      "director": "Akira Kurosawa"
+    },
+    {
+      "id": 18,
+      "title": "The Lives of Others",
+      "genre": "Drama",
+      "language": "German",
+      "releaseYear": 2006,
+      "rating": 8.4,
+      "runtime": 137,
+      "director": "Florian Henckel von Donnersmarck"
+    }
+  ]
+}
