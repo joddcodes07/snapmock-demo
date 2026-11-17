@@ -8,7 +8,7 @@ A small, separate demo repository showing how a frontend developer can get a mov
 
 [SnapMock](https://github.com/joddcodes07/snapmock) is a configuration driven mock REST API server. Point its CLI at a JSON database and it exposes collection and record endpoints, persists successful writes, and supports query filtering, search, pagination, delays, and scenarios.
 
-Links: [SnapMock source repository](https://github.com/joddcodes07/snapmock) · [Published npm package](https://www.npmjs.com/package/snapmock)
+Links: [SnapMock source repository](https://github.com/joddcodes07/snapmock) · [Published npm package](https://www.npmjs.com/package/snapmock) · [SnapMock demo repository](https://github.com/joddcodes07/snapmock-demo)
 
 ## Prerequisites
 
